@@ -35,14 +35,48 @@ html {
     border-radius: 15px;
 }
 
+#geral {
+    margin: 0 auto;
+    position: relative;
+    cursor: pointer;
+}
+
 #imagem {
-    display: inline-block;
+    display: block;
     width: 280px;
     height: 280px;
     margin-top: 25px;
     border-radius: 15px;
-    background-image: url(images/image-equilibrium.jpg);
-    background-size: cover;
+    margin-left: 25px;
+}
+
+#eyearea {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    margin-top: 25px;
+    border-radius: 15px;
+    margin-top: 25px;
+    opacity: 0.5;
+    left: 50%;
+    top: 115px;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor2);
+    opacity: 0;
+}
+
+#eye {
+    position: absolute;
+    bottom: 120px;
+    right: 115px;
+    display: block;
+    background-color: var(--cor2);
+    color: white;
+
+}
+
+#eyearea:hover {
+    opacity: 0.5;
 }
 
 h1 {
